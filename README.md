@@ -32,7 +32,7 @@ This project demonstrates **ETL architecture**, **schema normalization**, and **
 
 ## 📊 Data Flow Overview
 
-**E-Commerce Website → MongoDB (Raw) → Python ETL → MySQL (Processed)**  
+**E-Commerce Website → MongoDB (Raw) → Python ETL → MySQL (Processed)**
 
 ```mermaid
 flowchart LR
