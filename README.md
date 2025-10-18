@@ -36,9 +36,10 @@ This project demonstrates **ETL architecture**, **schema normalization**, and **
 
 ```mermaid
 flowchart LR
-A[E-Commerce Reviews] --> B[MongoDB (Raw Layer)]
-B --> C[Python Transformations]
-C --> D[MySQL (Analytics Layer)]
+    A["E-Commerce Reviews"] --> B["MongoDB (Raw Layer)"]
+    B --> C["Python Transformations"]
+    C --> D["MySQL (Analytics Layer)"]
+
 
 Added Future Enhancements section to README
 
